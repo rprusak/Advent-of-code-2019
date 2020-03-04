@@ -2,8 +2,8 @@
 #define DAY15_PROGRAMINTERFACE_H
 
 class ProgramInterface {
-public:
-    virtual long run(long input) = 0;
+ public:
+  virtual long run(long input) = 0;
 };
 
-#endif //DAY15_PROGRAMINTERFACE_H
+#endif  // DAY15_PROGRAMINTERFACE_H

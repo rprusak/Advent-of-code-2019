@@ -2,11 +2,10 @@
 #define DAY11_ROBOTINTERFACE_H
 
 class RobotInterface {
-public:
-    virtual long getCurrentColor() = 0;
-    virtual void colorCurrentPanel(long color) = 0;
-    virtual void move(long direction) = 0;
+ public:
+  virtual long getCurrentColor() = 0;
+  virtual void colorCurrentPanel(long color) = 0;
+  virtual void move(long direction) = 0;
 };
 
-
-#endif //DAY11_ROBOTINTERFACE_H
+#endif  // DAY11_ROBOTINTERFACE_H

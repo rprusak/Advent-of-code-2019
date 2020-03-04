@@ -3,6 +3,7 @@
 
 #include <vector>
 
-int dijkstra(const std::vector<std::vector<int>>& graph, int src, int destination);
+int dijkstra(const std::vector<std::vector<int>>& graph, int src,
+             int destination);
 
-#endif //DAY15_DIJKSTRA_H
+#endif  // DAY15_DIJKSTRA_H

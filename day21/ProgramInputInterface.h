@@ -2,9 +2,8 @@
 #define DAY21_PROGRAMINPUTINTERFACE_H
 
 class ProgramInputInterface {
-public:
-    virtual char getValue() = 0;
-
+ public:
+  virtual char getValue() = 0;
 };
 
-#endif //DAY21_PROGRAMINPUTINTERFACE_H
+#endif  // DAY21_PROGRAMINPUTINTERFACE_H
